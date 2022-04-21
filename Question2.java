@@ -10,7 +10,7 @@ public class Question2
      * Hint: in.nextDouble() to read double
      */
     Scanner user = new Scanner(System.in);  
-    System.out.println("Enter your height(m) and weight(kg): ");
+    System.out.println();
     double height = user.nextDouble();
     double weight = user.nextDouble();
     double BMI = weight / (height * height);

@@ -26,12 +26,12 @@ public class Question5
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter an integer: ");
+    System.out.println();
     int integerNum = in.nextInt();
     int numList[] = new int[integerNum];
     int mode = 0;
     for (int i = 0; i < integerNum; i++){
-      System.out.println("Number input " + (i+1) +":");
+      System.out.println();
       int userNum = in.nextInt();
       numList[i] = userNum;
     }
