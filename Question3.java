@@ -10,11 +10,11 @@ public class Question3
      * Hint: in.nextInt() to read integer
      */
      
-    Scanner userInteger = new Scanner(System.in);  
+    Scanner in = new Scanner(System.in);  
     System.out.println();
-    int integer = userInteger.nextInt();
+    int integer = in.nextInt();
     int multiplies = integer * integer;
     System.out.println(multiplies);
-    userInteger.close();
+    in.close();
   }
 }
