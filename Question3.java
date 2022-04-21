@@ -14,7 +14,7 @@ public class Question3
     System.out.println("Enter an integer: ");
     int integer = userInteger.nextInt();
     int multiplies = integer * integer;
-    System.out.println("Result: " +multiplies);
+    System.out.println(multiplies);
     userInteger.close();
   }
 }
